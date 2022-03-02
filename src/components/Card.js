@@ -2,8 +2,9 @@ import React, {Component} from "react"
 import location from '../images/Fill 219.png'
 
 
+
 export default function Card(props){
-    console.log(props)
+    console.log(props.item.imgUrl)
     return(
         <div className="card">
             <img src={props.item.imgUrl} alt="card image"/>
